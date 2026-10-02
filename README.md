@@ -40,6 +40,10 @@ sandbox/                      코드 격리용 Dockerfile와 실행 wrapper
 tests/                        패키지 자체 테스트
 ```
 
+## Qwen3.8-Flash-Next 측정 결과
+
+Qwen의 8K 품질 비교, 16K Coding 보충 실행, 이전 처리량 집계는 [`results/qwen/REPORT.md`](results/qwen/REPORT.md)에 있습니다. 이 보고서는 두 DGX Spark의 실험환경 기록을 함께 참조하며, 서빙 설정 차이와 GPU 2,000 MHz cap metadata의 해석 한계를 표시합니다. 원시 모델 답변과 endpoint·호스트 식별자는 공개하지 않습니다.
+
 ## GLM-5.3 Flash 측정 결과
 
 공개용 GLM-5.3 Flash 품질·처리량 집계 결과는 [`results/glm53/REPORT.md`](results/glm53/REPORT.md)에 있습니다. 실험 시점의 장비·클럭·서빙 설정은 [`results/glm53/environment.json`](results/glm53/environment.json)에 구조화해 기록했습니다. 문항별 pass/fail과 지연, 대응 비교, domain별 처리량은 같은 디렉터리의 CSV/JSON 자료를 참고하십시오. 공개 전용으로 정리되어 원시 모델 응답과 endpoint·컨테이너·호스트 식별자는 포함하지 않습니다.
