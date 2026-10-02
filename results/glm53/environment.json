@@ -1,0 +1,134 @@
+{
+  "format_version": 1,
+  "measurement_period": {
+    "start_date": "2026-09-27",
+    "end_date": "2026-10-02",
+    "timezone": "Asia/Seoul"
+  },
+  "hardware": {
+    "node_count": 2,
+    "product": "NVIDIA DGX Spark",
+    "per_node": {
+      "soc_gpu": "NVIDIA GB10 Grace Blackwell Superchip",
+      "cpu": "20-core Arm: 10 Cortex-X925 + 10 Cortex-A725",
+      "unified_memory": "128 GB LPDDR5x",
+      "network": "ConnectX-7, 200 Gbps",
+      "multi_node_transport": "RoCE"
+    },
+    "vendor_specification": "https://docs.nvidia.com/dgx/dgx-spark/hardware.html"
+  },
+  "host_software_observations": {
+    "primary_node_os": "Ubuntu 24.04.4 LTS",
+    "primary_node_architecture": "aarch64",
+    "gpu_driver_both_nodes_on_2026_10_02": "580.173.02",
+    "cuda_both_nodes_on_2026_10_02": "13.0",
+    "qbench_python": "3.12.3",
+    "note": "The OS value is from the primary node. Driver/CUDA values are from paired GPU snapshots recorded during the two-node measurements."
+  },
+  "gpu_clock_and_power": {
+    "archived_qwen_reference": {
+      "run_identity_gpu_cap_mhz": 2000,
+      "active_clock_lock_verified": false,
+      "interpretation": "The run identity records 2000 MHz, but captured nvidia-smi snapshots show Applications Clocks Setting and SW Power Cap as Not Active; active enforcement of the recorded cap is unverified."
+    },
+    "glm_v132_dense_q4_fp8_measurement": {
+      "applications_clocks_setting": "Not Active on both nodes",
+      "software_power_cap": "Not Active on both nodes",
+      "observed_graphics_sm_clock_mhz": 1774,
+      "default_application_graphics_clock_mhz": 2418,
+      "maximum_graphics_sm_clock_mhz": 3003,
+      "clock_or_power_limit_changed_for_ab": false
+    },
+    "glm_dflash2_server_parallel8_snapshot": {
+      "applications_clocks_setting": "Not Active on both nodes",
+      "software_power_cap": "Not Active on both nodes",
+      "observed_graphics_sm_clock_mhz_by_node": [1787, 1781],
+      "default_application_graphics_clock_mhz": 2418,
+      "maximum_graphics_sm_clock_mhz": 3003
+    },
+    "note": "Observed graphics/SM clocks are point-in-time readings, not sustained clock guarantees."
+  },
+  "serving_variants": [
+    {
+      "id": "qwen38-hibrid48-reference",
+      "model": "Qwen3.8-Flash-Next hibrid48",
+      "runtime": "vLLM 0.30.0",
+      "kv_cache": "BF16",
+      "mtp": 5,
+      "context_tokens": 262144,
+      "max_num_seqs_archived_baseline": 64,
+      "max_num_seqs_restored_handoff": 8
+    },
+    {
+      "id": "glm53-tensorfold",
+      "model": "GLM-5.3-Flash-EXL3-TR3-4bpw",
+      "weights_revision": "9eaebb7c4e96d983dcd538e18624622ba5b820a8",
+      "runtime": "TensorFold v0.5.0",
+      "dense_weights": "q4",
+      "kv_cache": "FP8",
+      "drafting": "checkpoint built-in MTP",
+      "server_parallelism": 1,
+      "context_tokens": 1048576
+    },
+    {
+      "id": "glm53-v132-dense-q4",
+      "model": "GLM-5.3-Flash-EXL3-TR3-4bpw",
+      "weights_revision": "9eaebb7c4e96d983dcd538e18624622ba5b820a8",
+      "runtime": "TensorFold v0.6.0 / recipe v1.3.2",
+      "dense_weights": "q4",
+      "kv_cache": "FP8",
+      "drafter": "GLM-5.3-Flash-DFlash2",
+      "drafter_revision": "bf582e4eacc1810f76656d1811693ff6c6737d2a",
+      "server_parallelism": 4,
+      "context_tokens": 1048576
+    },
+    {
+      "id": "glm53-v132-dense-fp8",
+      "model": "GLM-5.3-Flash-EXL3-TR3-4bpw",
+      "weights_revision": "9eaebb7c4e96d983dcd538e18624622ba5b820a8",
+      "runtime": "TensorFold v0.6.0 / recipe v1.3.2",
+      "dense_weights": "fp8",
+      "kv_cache": "FP8",
+      "drafter": "GLM-5.3-Flash-DFlash2",
+      "drafter_revision": "bf582e4eacc1810f76656d1811693ff6c6737d2a",
+      "server_parallelism": 4,
+      "context_tokens": 1048576
+    },
+    {
+      "id": "glm53-dflash2-server-parallel8",
+      "model": "GLM-5.3-Flash-EXL3-TR3-4bpw",
+      "weights_revision": "9eaebb7c4e96d983dcd538e18624622ba5b820a8",
+      "runtime": "TensorFold v0.6.0, Parallel-8 patch",
+      "dense_weights": "q4",
+      "kv_cache": "FP8",
+      "drafter": "GLM-5.3-Flash-DFlash2",
+      "drafter_revision": "bf582e4eacc1810f76656d1811693ff6c6737d2a",
+      "server_parallelism": 8,
+      "quality_client_concurrency": 1,
+      "throughput_client_concurrency": [1, 2, 4, 8],
+      "context_tokens": 262144
+    }
+  ],
+  "measurement_protocol": {
+    "quality": {
+      "core_tasks": 52,
+      "repeats_per_task": 3,
+      "long_context_tasks": 8,
+      "long_context_repeats": 3,
+      "client_concurrency": 1,
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "top_k": 20,
+      "thinking": true
+    },
+    "fixed_output_throughput": {
+      "warmup_completion_tokens": 256,
+      "measured_completion_tokens_per_batch": 2048,
+      "measured_batches_per_domain_and_load": 3,
+      "temperature": 0,
+      "thinking": true,
+      "completion_rates_include_reasoning_tokens": true,
+      "gpu_energy_scope": "Both GPUs only; host/system energy and idle draw excluded"
+    }
+  }
+}

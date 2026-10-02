@@ -1,0 +1,69 @@
+experiment,metric,prompt_domain,client_concurrency,a_label,b_label,a_rate,b_rate,rate_unit,b_minus_a_percent,a_gpu_tokens_per_joule,b_gpu_tokens_per_joule,b_energy_efficiency_minus_a_percent,cached_input_share_percent
+glm53-vs-archived-qwen-deployment,completion_output,English prose,1,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,47.0,51.59,tokens/s,-8.9,0.99,1.625,64.1,
+glm53-vs-archived-qwen-deployment,completion_output,English prose,2,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,46.96,81.84,tokens/s,-42.6,0.961,2.366,146.2,
+glm53-vs-archived-qwen-deployment,completion_output,English prose,4,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,46.95,119.44,tokens/s,-60.7,0.956,3.294,244.6,
+glm53-vs-archived-qwen-deployment,completion_output,English prose,8,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,46.95,180.55,tokens/s,-74.0,0.945,4.526,378.9,
+glm53-vs-archived-qwen-deployment,completion_output,Korean prose,1,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.91,46.98,tokens/s,10.5,1.073,1.426,32.9,
+glm53-vs-archived-qwen-deployment,completion_output,Korean prose,2,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.92,73.64,tokens/s,-29.5,1.075,2.12,97.2,
+glm53-vs-archived-qwen-deployment,completion_output,Korean prose,4,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.93,109.58,tokens/s,-52.6,1.069,3.014,181.9,
+glm53-vs-archived-qwen-deployment,completion_output,Korean prose,8,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.92,163.26,tokens/s,-68.2,1.06,4.109,287.6,
+glm53-vs-archived-qwen-deployment,completion_output,Coding,1,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.69,74.43,tokens/s,-30.6,1.041,2.251,116.2,
+glm53-vs-archived-qwen-deployment,completion_output,Coding,2,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.7,109.71,tokens/s,-52.9,1.034,3.133,203.0,
+glm53-vs-archived-qwen-deployment,completion_output,Coding,4,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.68,159.83,tokens/s,-67.7,1.025,4.403,329.6,
+glm53-vs-archived-qwen-deployment,completion_output,Coding,8,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,51.7,239.92,tokens/s,-78.5,1.028,5.999,483.6,
+glm53-vs-archived-qwen-deployment,completion_output,Chinese prose,1,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,64.82,47.8,tokens/s,35.6,1.305,1.448,11.0,
+glm53-vs-archived-qwen-deployment,completion_output,Chinese prose,2,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,64.81,73.43,tokens/s,-11.7,1.294,2.105,62.7,
+glm53-vs-archived-qwen-deployment,completion_output,Chinese prose,4,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,64.82,111.55,tokens/s,-41.9,1.278,3.067,140.0,
+glm53-vs-archived-qwen-deployment,completion_output,Chinese prose,8,GLM 5.3 Flash TensorFold,Qwen3.8 Cluster archived reference,64.83,162.04,tokens/s,-60.0,1.277,4.019,214.7,
+glm53-v132-dense-q4-vs-fp8,completion_output,English prose,1,Dense q4,Dense FP8,46.471,39.913,tokens/s,-14.1,1.022,0.888,-13.1,
+glm53-v132-dense-q4-vs-fp8,completion_output,English prose,2,Dense q4,Dense FP8,80.056,74.887,tokens/s,-6.5,1.68,1.624,-3.3,
+glm53-v132-dense-q4-vs-fp8,completion_output,English prose,3,Dense q4,Dense FP8,112.59,104.883,tokens/s,-6.8,2.31,2.232,-3.4,
+glm53-v132-dense-q4-vs-fp8,completion_output,English prose,4,Dense q4,Dense FP8,153.083,124.278,tokens/s,-18.8,3.158,2.58,-18.3,
+glm53-v132-dense-q4-vs-fp8,completion_output,Korean prose,1,Dense q4,Dense FP8,44.558,36.314,tokens/s,-18.5,0.978,0.813,-16.9,
+glm53-v132-dense-q4-vs-fp8,completion_output,Korean prose,2,Dense q4,Dense FP8,83.347,64.433,tokens/s,-22.7,1.812,1.386,-23.5,
+glm53-v132-dense-q4-vs-fp8,completion_output,Korean prose,3,Dense q4,Dense FP8,112.304,95.844,tokens/s,-14.7,2.371,2.074,-12.5,
+glm53-v132-dense-q4-vs-fp8,completion_output,Korean prose,4,Dense q4,Dense FP8,146.918,121.472,tokens/s,-17.3,3.104,2.617,-15.7,
+glm53-v132-dense-q4-vs-fp8,completion_output,Coding,1,Dense q4,Dense FP8,55.907,61.852,tokens/s,10.6,1.17,1.267,8.3,
+glm53-v132-dense-q4-vs-fp8,completion_output,Coding,2,Dense q4,Dense FP8,94.739,115.251,tokens/s,21.7,1.912,2.328,21.8,
+glm53-v132-dense-q4-vs-fp8,completion_output,Coding,3,Dense q4,Dense FP8,144.516,160.704,tokens/s,11.2,2.921,3.195,9.4,
+glm53-v132-dense-q4-vs-fp8,completion_output,Coding,4,Dense q4,Dense FP8,182.033,186.721,tokens/s,2.6,3.627,3.615,-0.3,
+glm53-v132-dense-q4-vs-fp8,completion_output,Chinese prose,1,Dense q4,Dense FP8,56.592,45.846,tokens/s,-19.0,1.194,0.994,-16.8,
+glm53-v132-dense-q4-vs-fp8,completion_output,Chinese prose,2,Dense q4,Dense FP8,104.672,85.772,tokens/s,-18.1,2.179,1.823,-16.3,
+glm53-v132-dense-q4-vs-fp8,completion_output,Chinese prose,3,Dense q4,Dense FP8,114.307,106.063,tokens/s,-7.2,2.236,2.173,-2.8,
+glm53-v132-dense-q4-vs-fp8,completion_output,Chinese prose,4,Dense q4,Dense FP8,174.61,145.98,tokens/s,-16.4,3.544,3.049,-14.0,
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,English prose,1,Dense q4,Dense FP8,19.764,16.975,tokens/s,,,,,95.5
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,English prose,2,Dense q4,Dense FP8,34.428,31.849,tokens/s,,,,,95.5
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,English prose,3,Dense q4,Dense FP8,48.336,44.606,tokens/s,,,,,95.5
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,English prose,4,Dense q4,Dense FP8,65.105,53.22,tokens/s,,,,,95.5
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Korean prose,1,Dense q4,Dense FP8,19.559,15.941,tokens/s,,,,,99.7
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Korean prose,2,Dense q4,Dense FP8,36.587,28.465,tokens/s,,,,,99.7
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Korean prose,3,Dense q4,Dense FP8,49.297,42.072,tokens/s,,,,,99.7
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Korean prose,4,Dense q4,Dense FP8,64.492,53.322,tokens/s,,,,,99.7
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Coding,1,Dense q4,Dense FP8,23.695,26.215,tokens/s,,,,,95.9
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Coding,2,Dense q4,Dense FP8,40.756,48.847,tokens/s,,,,,95.9
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Coding,3,Dense q4,Dense FP8,61.25,68.111,tokens/s,,,,,95.9
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Coding,4,Dense q4,Dense FP8,77.151,80.023,tokens/s,,,,,95.9
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Chinese prose,1,Dense q4,Dense FP8,24.124,19.543,tokens/s,,,,,95.3
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Chinese prose,2,Dense q4,Dense FP8,44.619,36.562,tokens/s,,,,,95.3
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Chinese prose,3,Dense q4,Dense FP8,49.17,45.494,tokens/s,,,,,95.3
+glm53-v132-dense-q4-vs-fp8,aggregate_input_including_cached,Chinese prose,4,Dense q4,Dense FP8,74.431,62.227,tokens/s,,,,,95.3
+glm53-dflash2-server-parallel8,completion_output,English prose,1,"GLM Flash dense q4 + DFlash2, server parallelism 8",,46.2,,tokens/s,,1.02,,,
+glm53-dflash2-server-parallel8,completion_output,English prose,2,"GLM Flash dense q4 + DFlash2, server parallelism 8",,86.3,,tokens/s,,1.85,,,
+glm53-dflash2-server-parallel8,completion_output,English prose,4,"GLM Flash dense q4 + DFlash2, server parallelism 8",,152.2,,tokens/s,,3.12,,,
+glm53-dflash2-server-parallel8,completion_output,English prose,8,"GLM Flash dense q4 + DFlash2, server parallelism 8",,233.3,,tokens/s,,4.66,,,
+glm53-dflash2-server-parallel8,completion_output,Korean prose,1,"GLM Flash dense q4 + DFlash2, server parallelism 8",,44.2,,tokens/s,,0.95,,,
+glm53-dflash2-server-parallel8,completion_output,Korean prose,2,"GLM Flash dense q4 + DFlash2, server parallelism 8",,82.8,,tokens/s,,1.77,,,
+glm53-dflash2-server-parallel8,completion_output,Korean prose,4,"GLM Flash dense q4 + DFlash2, server parallelism 8",,146.6,,tokens/s,,3.05,,,
+glm53-dflash2-server-parallel8,completion_output,Korean prose,8,"GLM Flash dense q4 + DFlash2, server parallelism 8",,226.3,,tokens/s,,4.62,,,
+glm53-dflash2-server-parallel8,completion_output,Chinese prose,1,"GLM Flash dense q4 + DFlash2, server parallelism 8",,56.1,,tokens/s,,1.17,,,
+glm53-dflash2-server-parallel8,completion_output,Chinese prose,2,"GLM Flash dense q4 + DFlash2, server parallelism 8",,104.1,,tokens/s,,2.14,,,
+glm53-dflash2-server-parallel8,completion_output,Chinese prose,4,"GLM Flash dense q4 + DFlash2, server parallelism 8",,174.1,,tokens/s,,3.5,,,
+glm53-dflash2-server-parallel8,completion_output,Chinese prose,8,"GLM Flash dense q4 + DFlash2, server parallelism 8",,253.9,,tokens/s,,5.08,,,
+glm53-dflash2-server-parallel8,completion_output,Coding prompt,1,"GLM Flash dense q4 + DFlash2, server parallelism 8",,55.5,,tokens/s,,1.13,,,
+glm53-dflash2-server-parallel8,completion_output,Coding prompt,2,"GLM Flash dense q4 + DFlash2, server parallelism 8",,94.2,,tokens/s,,1.86,,,
+glm53-dflash2-server-parallel8,completion_output,Coding prompt,4,"GLM Flash dense q4 + DFlash2, server parallelism 8",,181.3,,tokens/s,,3.56,,,
+glm53-dflash2-server-parallel8,completion_output,Coding prompt,8,"GLM Flash dense q4 + DFlash2, server parallelism 8",,270.7,,tokens/s,,5.28,,,
+glm53-dflash2-server-parallel8,completion_output_token_weighted_pool,Pooled across 4 domains,1,"GLM Flash dense q4 + DFlash2, server parallelism 8",,49.9,,tokens/s,,1.06,,,
+glm53-dflash2-server-parallel8,completion_output_token_weighted_pool,Pooled across 4 domains,2,"GLM Flash dense q4 + DFlash2, server parallelism 8",,91.2,,tokens/s,,1.89,,,
+glm53-dflash2-server-parallel8,completion_output_token_weighted_pool,Pooled across 4 domains,4,"GLM Flash dense q4 + DFlash2, server parallelism 8",,162.2,,tokens/s,,3.29,,,
+glm53-dflash2-server-parallel8,completion_output_token_weighted_pool,Pooled across 4 domains,8,"GLM Flash dense q4 + DFlash2, server parallelism 8",,244.8,,tokens/s,,4.89,,,

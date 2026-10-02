@@ -1,0 +1,19 @@
+comparison_id,category,variant_a,variant_b,paired_episodes,unique_tasks,b_minus_a_pass_rate_pp,bootstrap_95ci_low_pp,bootstrap_95ci_high_pp,a_only_passes,b_only_passes,both_pass,both_fail
+glm53-vs-qwen-reference,coding,Qwen3.8 Cluster archived reference,GLM 5.3 Flash / TensorFold dense q4,60,20,35.0,20.0,50.0,0,21,36,3
+glm53-vs-qwen-reference,instruction,Qwen3.8 Cluster archived reference,GLM 5.3 Flash / TensorFold dense q4,24,8,-4.167,-12.5,0.0,1,0,23,0
+glm53-vs-qwen-reference,korean,Qwen3.8 Cluster archived reference,GLM 5.3 Flash / TensorFold dense q4,12,4,-25.0,-75.0,0.0,3,0,9,0
+glm53-vs-qwen-reference,reasoning,Qwen3.8 Cluster archived reference,GLM 5.3 Flash / TensorFold dense q4,30,10,-6.667,-16.667,0.0,2,0,28,0
+glm53-vs-qwen-reference,tool,Qwen3.8 Cluster archived reference,GLM 5.3 Flash / TensorFold dense q4,30,10,0,0.0,0.0,0,0,30,0
+glm53-vs-qwen-reference,long_context,Qwen3.8 Cluster archived reference,GLM 5.3 Flash / TensorFold dense q4,24,8,0,0.0,0.0,1,1,21,1
+v132-q4-vs-fp8,coding,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,60,20,1.667,-3.333,8.333,1,2,56,1
+v132-q4-vs-fp8,instruction,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,24,8,0.0,-12.5,12.5,1,1,22,0
+v132-q4-vs-fp8,korean,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,12,4,0,0.0,0.0,0,0,9,3
+v132-q4-vs-fp8,reasoning,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,30,10,0.0,-10.0,10.0,2,2,26,0
+v132-q4-vs-fp8,tool,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,30,10,0,0.0,0.0,0,0,30,0
+v132-q4-vs-fp8,long_context,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,24,8,4.167,-8.333,16.667,1,2,21,0
+dflash2-vs-qwen-reference,coding,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,Qwen3.8 Cluster archived reference,60,20,-35.0,-50.0,-20.0,21,0,36,3
+dflash2-vs-qwen-reference,instruction,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,Qwen3.8 Cluster archived reference,24,8,4.167,0.0,12.5,0,1,23,0
+dflash2-vs-qwen-reference,korean,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,Qwen3.8 Cluster archived reference,12,4,25.0,0.0,75.0,0,3,9,0
+dflash2-vs-qwen-reference,reasoning,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,Qwen3.8 Cluster archived reference,30,10,6.667,0.0,16.667,0,2,28,0
+dflash2-vs-qwen-reference,tool,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,Qwen3.8 Cluster archived reference,30,10,0,0.0,0.0,0,0,30,0
+dflash2-vs-qwen-reference,long_context,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,Qwen3.8 Cluster archived reference,24,8,0,0.0,0.0,1,1,21,1

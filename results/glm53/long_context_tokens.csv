@@ -1,0 +1,9 @@
+task_id,qwen_prepared_input_tokens,glm53_input_tokens,glm53_input_plus_4096_output_within_1m_context
+L01,8192,6719,True
+L02,16384,13477,True
+L03,32768,27048,True
+L04,49152,40688,True
+L05,65536,54196,True
+L06,98304,81308,True
+L07,131072,108547,True
+L08,200000,166764,True

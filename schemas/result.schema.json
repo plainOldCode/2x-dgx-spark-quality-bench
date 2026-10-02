@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Episode result before or after grading",
+  "type": "object",
+  "required": [
+    "task_id",
+    "category",
+    "model_label",
+    "repeat",
+    "seed",
+    "prompt_sha256",
+    "status",
+    "answer",
+    "usage",
+    "api_wall_s"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "coding",
+        "tool",
+        "reasoning",
+        "instruction",
+        "long_context",
+        "korean"
+      ]
+    },
+    "model_label": {
+      "type": "string"
+    },
+    "repeat": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "prompt_sha256": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "ok",
+        "api_error",
+        "generation_truncated",
+        "unexpected_finish",
+        "unexpected_tool_call",
+        "tool_trace_failure",
+        "parser_error",
+        "turn_limit"
+      ]
+    },
+    "answer": {
+      "type": "string"
+    },
+    "api_wall_s": {
+      "type": "number",
+      "minimum": 0
+    },
+    "usage": {
+      "type": "object",
+      "required": [
+        "prompt_tokens",
+        "completion_tokens",
+        "reasoning_tokens",
+        "cached_tokens"
+      ],
+      "properties": {
+        "prompt_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "completion_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "reasoning_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "cached_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "grade": {
+      "type": "object",
+      "required": [
+        "passed",
+        "score",
+        "reason"
+      ],
+      "properties": {
+        "passed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "score": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,729 @@
+variant_id,variant,suite,task_id,category,repeat,status,passed,api_wall_s,finish_reason,measured_input_tokens,prepared_target_tokens,prompt_tokens,completion_tokens,reasoning_tokens
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C09,coding,0,ok,True,13.8,stop,,,201,732,611
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K03,korean,0,ok,True,2.546,stop,,,227,132,125
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R08,reasoning,0,ok,True,3.106,stop,,,127,167,132
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I07,instruction,0,ok,True,10.423,stop,,,113,607,576
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C07,coding,0,ok,True,26.37,stop,,,219,1510,1332
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C17,coding,0,ok,True,22.741,stop,,,150,1147,1077
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R09,reasoning,0,ok,True,7.078,stop,,,141,323,307
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T09,tool,0,ok,True,3.287,stop,,,1052,109,66
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I05,instruction,0,ok,True,2.128,stop,,,112,92,77
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C06,coding,0,ok,True,68.009,stop,,,285,3880,3594
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C05,coding,0,ok,True,23.013,stop,,,220,1307,1132
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C16,coding,0,ok,True,118.316,stop,,,226,6459,5861
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I08,instruction,0,ok,True,2.101,stop,,,116,91,68
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K04,korean,0,ok,True,10.639,stop,,,230,571,521
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C15,coding,0,ok,True,25.351,stop,,,289,1370,1066
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R01,reasoning,0,ok,True,6.418,stop,,,139,311,287
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T07,tool,0,ok,True,1.904,stop,,,288,67,54
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K02,korean,0,ok,False,5.029,stop,,,195,267,213
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T02,tool,0,ok,True,2.498,stop,,,688,83,56
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C02,coding,0,generation_truncated,False,169.728,length,,,271,8192,8192
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C13,coding,0,ok,True,26.785,stop,,,196,1419,1220
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C08,coding,0,ok,True,32.281,stop,,,225,1720,1522
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C18,coding,0,ok,True,4.771,stop,,,143,232,174
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I01,instruction,0,ok,True,10.331,stop,,,118,543,507
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C20,coding,0,ok,True,17.191,stop,,,185,905,712
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T01,tool,0,ok,True,4.602,stop,,,1462,155,102
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R05,reasoning,0,ok,False,5.103,stop,,,168,273,250
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R03,reasoning,0,ok,True,3.478,stop,,,145,165,135
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R02,reasoning,0,ok,True,6.383,stop,,,139,313,290
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K01,korean,0,ok,True,7.193,stop,,,198,431,406
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T06,tool,0,ok,True,3.072,stop,,,714,111,86
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R06,reasoning,0,ok,True,5.392,stop,,,178,249,226
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T03,tool,0,ok,True,2.808,stop,,,1133,77,27
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T10,tool,0,ok,True,3.938,stop,,,1309,140,93
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C01,coding,0,ok,True,45.28,stop,,,184,2360,2163
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I02,instruction,0,ok,True,2.449,stop,,,117,109,89
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I06,instruction,0,ok,True,2.534,stop,,,113,115,101
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C10,coding,0,ok,True,20.217,stop,,,214,1057,665
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C14,coding,0,ok,True,50.373,stop,,,220,2736,2491
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T08,tool,0,ok,True,3.107,stop,,,740,102,78
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R04,reasoning,0,ok,True,4.959,stop,,,133,219,181
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I04,instruction,0,ok,True,22.909,stop,,,111,1653,1605
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C19,coding,0,ok,True,26.212,stop,,,160,1355,1291
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C12,coding,0,generation_truncated,False,154.117,length,,,231,8192,7886
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C04,coding,0,ok,True,35.345,stop,,,199,1934,1574
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T05,tool,0,ok,True,1.587,stop,,,284,50,44
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C11,coding,0,ok,True,73.841,stop,,,220,3926,3705
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R10,reasoning,0,ok,True,8.528,stop,,,159,421,383
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I03,instruction,0,ok,True,2.522,stop,,,107,110,95
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R07,reasoning,0,ok,True,4.048,stop,,,117,195,169
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C03,coding,0,ok,True,71.983,stop,,,210,3830,3645
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T04,tool,0,ok,True,2.841,stop,,,740,104,58
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R04,reasoning,1,ok,True,7.702,stop,,,133,361,323
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K01,korean,1,ok,True,4.037,stop,,,198,242,217
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R10,reasoning,1,ok,True,2.476,stop,,,159,128,92
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C18,coding,1,ok,True,6.529,stop,,,143,340,282
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R07,reasoning,1,ok,True,3.038,stop,,,117,166,140
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I08,instruction,1,ok,True,1.595,stop,,,116,65,48
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T07,tool,1,ok,True,1.906,stop,,,288,74,61
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K03,korean,1,ok,True,2.509,stop,,,227,130,123
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C09,coding,1,ok,True,10.935,stop,,,201,552,423
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C16,coding,1,ok,True,36.781,stop,,,226,2050,1611
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K02,korean,1,ok,False,4.607,stop,,,195,268,214
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C10,coding,1,ok,True,66.26,stop,,,214,3705,3236
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I02,instruction,1,ok,True,2.245,stop,,,117,100,80
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C19,coding,1,ok,True,39.363,stop,,,160,2025,1942
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C02,coding,1,ok,True,91.259,stop,,,271,4587,4243
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T08,tool,1,ok,True,2.995,stop,,,740,98,74
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T09,tool,1,ok,True,3.207,stop,,,1051,108,65
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T03,tool,1,ok,True,2.792,stop,,,1133,80,30
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T01,tool,1,ok,True,5.338,stop,,,1486,189,136
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R08,reasoning,1,ok,True,2.647,stop,,,127,125,90
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T10,tool,1,ok,True,4.395,stop,,,1267,156,109
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I05,instruction,1,ok,True,2.089,stop,,,112,94,79
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I06,instruction,1,ok,False,2.283,stop,,,113,99,81
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I01,instruction,1,ok,True,29.543,stop,,,118,1624,1588
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T05,tool,1,ok,True,1.648,stop,,,284,62,55
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C17,coding,1,ok,True,13.316,stop,,,150,713,642
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K04,korean,1,ok,True,9.192,stop,,,230,495,444
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R05,reasoning,1,ok,True,5.566,stop,,,168,292,267
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C03,coding,1,ok,True,33.883,stop,,,210,1725,1589
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T02,tool,1,ok,True,3.207,stop,,,711,130,103
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T06,tool,1,ok,True,2.907,stop,,,728,119,94
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C04,coding,1,ok,True,29.061,stop,,,199,1682,1376
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I07,instruction,1,ok,True,8.533,stop,,,113,451,422
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R09,reasoning,1,ok,True,6.291,stop,,,141,290,274
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C20,coding,1,ok,True,18.13,stop,,,185,1000,854
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C06,coding,1,ok,True,59.286,stop,,,285,3511,3233
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C14,coding,1,ok,True,139.426,stop,,,220,7312,6999
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C01,coding,1,ok,True,60.833,stop,,,184,3062,2925
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C08,coding,1,ok,True,31.054,stop,,,225,1717,1525
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R03,reasoning,1,ok,True,4.536,stop,,,145,221,191
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C15,coding,1,ok,True,34.35,stop,,,289,2026,1727
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R02,reasoning,1,ok,True,7.149,stop,,,139,344,321
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C11,coding,1,ok,True,23.311,stop,,,220,1274,1073
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I04,instruction,1,ok,True,18.945,stop,,,111,1211,1162
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C05,coding,1,ok,True,21.438,stop,,,220,1189,1044
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C07,coding,1,ok,True,33.883,stop,,,219,1815,1617
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T04,tool,1,ok,True,3.008,stop,,,742,117,71
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R06,reasoning,1,ok,True,6.048,stop,,,178,276,253
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I03,instruction,1,ok,True,2.516,stop,,,107,122,107
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C12,coding,1,ok,True,133.711,stop,,,231,6998,6581
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R01,reasoning,1,ok,True,8.382,stop,,,139,418,394
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C13,coding,1,ok,True,56.781,stop,,,196,3100,2806
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I05,instruction,2,ok,True,1.974,stop,,,112,88,73
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T04,tool,2,ok,True,2.757,stop,,,743,135,89
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C05,coding,2,ok,True,21.489,stop,,,220,1191,1071
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R04,reasoning,2,ok,True,4.243,stop,,,133,211,173
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I08,instruction,2,ok,True,1.461,stop,,,116,58,41
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T10,tool,2,ok,True,4.314,stop,,,1323,151,104
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C18,coding,2,ok,True,6.852,stop,,,143,347,289
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K02,korean,2,ok,False,4.651,stop,,,195,269,215
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C07,coding,2,ok,True,54.984,stop,,,219,2919,2709
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C16,coding,2,ok,True,47.331,stop,,,226,2643,2262
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I06,instruction,2,ok,True,2.225,stop,,,113,104,90
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T05,tool,2,ok,True,1.609,stop,,,284,60,54
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C01,coding,2,ok,True,26.219,stop,,,184,1448,1307
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R01,reasoning,2,ok,False,18.338,stop,,,139,940,904
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C17,coding,2,ok,True,23.476,stop,,,150,1183,1113
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C03,coding,2,ok,True,38.397,stop,,,210,2028,1933
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T08,tool,2,ok,True,2.714,stop,,,740,85,61
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R09,reasoning,2,ok,True,6.569,stop,,,141,299,283
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K01,korean,2,ok,True,4.131,stop,,,198,242,217
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C06,coding,2,ok,True,38.143,stop,,,285,2232,1951
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T03,tool,2,ok,True,2.786,stop,,,1133,77,27
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I03,instruction,2,ok,True,2.66,stop,,,107,127,112
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C12,coding,2,ok,True,103.581,stop,,,231,5407,5024
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R05,reasoning,2,ok,True,14.857,stop,,,168,816,791
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C09,coding,2,ok,True,20.691,stop,,,201,1030,905
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C20,coding,2,ok,True,28.545,stop,,,185,1659,1494
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R03,reasoning,2,ok,True,4.53,stop,,,145,230,200
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R02,reasoning,2,ok,True,6.208,stop,,,139,290,267
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R07,reasoning,2,ok,True,3.166,stop,,,117,162,136
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C10,coding,2,ok,True,39.059,stop,,,214,2252,1872
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R08,reasoning,2,ok,True,3.082,stop,,,127,163,128
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T02,tool,2,ok,True,3.23,stop,,,696,113,86
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T06,tool,2,ok,True,2.648,stop,,,714,102,77
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I02,instruction,2,ok,True,2.257,stop,,,117,98,78
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C11,coding,2,ok,True,37.874,stop,,,220,2026,1849
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C19,coding,2,ok,True,18.359,stop,,,160,968,888
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C15,coding,2,ok,True,26.917,stop,,,289,1521,1235
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I04,instruction,2,ok,True,18.184,stop,,,111,1168,1121
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C02,coding,2,generation_truncated,False,165.371,length,,,271,8192,8192
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K04,korean,2,ok,True,10.935,stop,,,230,569,526
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T07,tool,2,ok,True,1.56,stop,,,288,53,40
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I07,instruction,2,ok,True,11.39,stop,,,113,638,606
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C13,coding,2,ok,True,41.221,stop,,,196,2221,1992
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R06,reasoning,2,ok,True,5.541,stop,,,178,291,268
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T01,tool,2,ok,True,4.842,stop,,,1488,167,114
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C14,coding,2,ok,True,52.852,stop,,,220,2912,2516
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,K03,korean,2,ok,True,2.568,stop,,,227,125,118
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,T09,tool,2,ok,True,3.235,stop,,,1051,107,65
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C04,coding,2,ok,True,33.835,stop,,,199,1859,1522
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,R10,reasoning,2,ok,True,3.278,stop,,,159,154,118
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,C08,coding,2,ok,True,18.721,stop,,,225,981,716
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,core,I01,instruction,2,ok,True,8.814,stop,,,118,465,431
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L06,long_context,0,ok,True,67.837,stop,98250,98304,81308,545,515
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L08,long_context,0,ok,False,140.9,stop,200012,200000,166764,1079,1030
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L03,long_context,0,ok,True,29.393,stop,32726,32768,27048,618,572
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L02,long_context,0,ok,True,13.046,stop,16376,16384,13477,231,191
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L07,long_context,0,ok,True,78.508,stop,131086,131072,108547,171,146
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L05,long_context,0,ok,True,44.554,stop,65498,65536,54196,432,389
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L04,long_context,0,ok,True,30.509,stop,49139,49152,40688,219,185
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L01,long_context,0,ok,True,8.386,stop,8164,8192,6719,202,171
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L05,long_context,1,ok,True,10.817,stop,65498,65536,54196,552,509
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L01,long_context,1,ok,True,2.996,stop,8164,8192,6719,171,140
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L06,long_context,1,ok,True,62.392,stop,98250,98304,81308,3365,3335
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L08,long_context,1,ok,True,7.698,stop,200012,200000,166764,411,374
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L02,long_context,1,ok,True,3.472,stop,16376,16384,13477,182,142
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L03,long_context,1,ok,True,12.645,stop,32726,32768,27048,717,671
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L07,long_context,1,ok,True,4.082,stop,131086,131072,108547,211,180
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L04,long_context,1,ok,True,3.878,stop,49139,49152,40688,224,190
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L02,long_context,2,ok,True,6.805,stop,16376,16384,13477,394,354
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L05,long_context,2,ok,True,6.798,stop,65498,65536,54196,333,290
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L03,long_context,2,ok,True,9.188,stop,32726,32768,27048,469,398
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L06,long_context,2,generation_truncated,False,31.898,length,98250,98304,81308,4096,4096
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L04,long_context,2,ok,True,3.799,stop,49139,49152,40688,208,174
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L01,long_context,2,ok,True,4.039,stop,8164,8192,6719,197,173
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L07,long_context,2,ok,True,3.735,stop,131086,131072,108547,192,167
+glm53-tensorfold,GLM 5.3 Flash / TensorFold dense q4,long_context,L08,long_context,2,ok,True,9.039,stop,200012,200000,166764,512,467
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C09,coding,0,ok,True,12.01,stop,,,201,732,611
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K03,korean,0,ok,True,2.236,stop,,,227,132,125
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R08,reasoning,0,ok,True,2.568,stop,,,127,167,132
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I07,instruction,0,ok,True,8.709,stop,,,113,607,576
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C07,coding,0,ok,True,23.468,stop,,,219,1510,1332
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C17,coding,0,ok,True,20.146,stop,,,150,1147,1077
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R09,reasoning,0,ok,True,6.339,stop,,,141,323,307
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T09,tool,0,ok,True,3.257,stop,,,1052,109,66
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I05,instruction,0,ok,True,1.717,stop,,,112,92,77
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C06,coding,0,ok,True,62.162,stop,,,285,3880,3594
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C05,coding,0,ok,True,20.659,stop,,,220,1307,1132
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C16,coding,0,ok,True,111.501,stop,,,226,6459,5861
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I08,instruction,0,ok,True,1.743,stop,,,116,91,68
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K04,korean,0,ok,True,9.492,stop,,,230,571,521
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C15,coding,0,ok,True,22.96,stop,,,289,1370,1066
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R01,reasoning,0,ok,True,5.357,stop,,,139,311,287
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T07,tool,0,ok,True,1.531,stop,,,288,67,54
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K02,korean,0,ok,False,4.757,stop,,,195,267,213
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T02,tool,0,ok,True,2.398,stop,,,688,83,56
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C02,coding,0,generation_truncated,False,165.428,length,,,271,8192,8192
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C13,coding,0,ok,True,23.702,stop,,,196,1419,1220
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C08,coding,0,ok,True,27.716,stop,,,225,1720,1522
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C18,coding,0,ok,True,4.106,stop,,,143,232,174
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I01,instruction,0,ok,True,8.508,stop,,,118,543,507
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C20,coding,0,ok,True,15.484,stop,,,185,905,712
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T01,tool,0,ok,True,4.255,stop,,,1462,155,102
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R05,reasoning,0,ok,False,4.259,stop,,,168,273,250
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R03,reasoning,0,ok,True,2.872,stop,,,145,165,135
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R02,reasoning,0,ok,True,6.159,stop,,,139,313,290
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K01,korean,0,ok,True,5.869,stop,,,198,431,406
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T06,tool,0,ok,True,2.617,stop,,,714,111,86
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R06,reasoning,0,ok,True,4.899,stop,,,178,249,226
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T03,tool,0,ok,True,2.603,stop,,,1133,77,27
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T10,tool,0,ok,True,3.614,stop,,,1309,140,93
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C01,coding,0,ok,True,39.626,stop,,,184,2360,2163
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I02,instruction,0,ok,True,2.023,stop,,,117,109,89
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I06,instruction,0,ok,True,2.42,stop,,,113,115,101
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C10,coding,0,ok,True,17.621,stop,,,214,1057,665
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C14,coding,0,ok,True,45.296,stop,,,220,2736,2491
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T08,tool,0,ok,True,3.058,stop,,,740,102,78
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R04,reasoning,0,ok,True,4.239,stop,,,133,219,181
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I04,instruction,0,ok,True,19.252,stop,,,111,1653,1605
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C19,coding,0,ok,True,23.061,stop,,,160,1355,1291
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C12,coding,0,generation_truncated,False,146.77,length,,,231,8192,7886
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C04,coding,0,ok,True,31.726,stop,,,199,1934,1574
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T05,tool,0,ok,True,1.325,stop,,,284,50,44
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C11,coding,0,ok,True,68.826,stop,,,220,3926,3705
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R10,reasoning,0,ok,True,7.414,stop,,,159,421,383
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I03,instruction,0,ok,True,1.877,stop,,,107,110,95
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R07,reasoning,0,ok,True,3.888,stop,,,117,195,169
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C03,coding,0,ok,True,65.358,stop,,,210,3830,3645
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T04,tool,0,ok,True,2.294,stop,,,740,104,58
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R04,reasoning,1,ok,True,6.661,stop,,,133,361,323
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K01,korean,1,ok,True,3.146,stop,,,198,242,217
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R10,reasoning,1,ok,True,2.15,stop,,,159,128,92
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C18,coding,1,ok,True,5.969,stop,,,143,340,282
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R07,reasoning,1,ok,True,2.78,stop,,,117,166,140
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I08,instruction,1,ok,True,1.361,stop,,,116,65,48
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T07,tool,1,ok,True,1.651,stop,,,288,74,61
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K03,korean,1,ok,True,2.206,stop,,,227,130,123
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C09,coding,1,ok,True,9.273,stop,,,201,552,423
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C16,coding,1,ok,True,33.098,stop,,,226,2050,1611
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K02,korean,1,ok,False,3.658,stop,,,195,268,214
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C10,coding,1,ok,True,60.391,stop,,,214,3705,3236
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I02,instruction,1,ok,True,1.78,stop,,,117,100,80
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C19,coding,1,ok,True,34.4,stop,,,160,2025,1942
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C02,coding,1,ok,True,87.457,stop,,,271,4587,4243
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T08,tool,1,ok,True,2.193,stop,,,740,98,74
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T09,tool,1,ok,True,3.042,stop,,,1051,108,65
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T03,tool,1,ok,True,2.478,stop,,,1133,80,30
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T01,tool,1,ok,True,5.191,stop,,,1486,189,136
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R08,reasoning,1,ok,True,2.192,stop,,,127,125,90
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T10,tool,1,ok,True,4.035,stop,,,1267,156,109
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I05,instruction,1,ok,True,1.681,stop,,,112,94,79
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I06,instruction,1,ok,False,2.022,stop,,,113,99,81
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I01,instruction,1,ok,True,25.111,stop,,,118,1624,1588
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T05,tool,1,ok,True,1.438,stop,,,284,62,55
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C17,coding,1,ok,True,12.584,stop,,,150,713,642
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K04,korean,1,ok,True,7.301,stop,,,230,495,444
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R05,reasoning,1,ok,True,4.967,stop,,,168,292,267
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C03,coding,1,ok,True,32.567,stop,,,210,1725,1589
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T02,tool,1,ok,True,2.833,stop,,,711,130,103
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T06,tool,1,ok,True,2.534,stop,,,728,119,94
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C04,coding,1,ok,True,25.942,stop,,,199,1682,1376
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I07,instruction,1,ok,True,7.075,stop,,,113,451,422
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R09,reasoning,1,ok,True,5.076,stop,,,141,290,274
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C20,coding,1,ok,True,15.784,stop,,,185,1000,854
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C06,coding,1,ok,True,52.758,stop,,,285,3511,3233
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C14,coding,1,ok,True,131.602,stop,,,220,7312,6999
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C01,coding,1,ok,True,55.697,stop,,,184,3062,2925
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C08,coding,1,ok,True,27.923,stop,,,225,1717,1525
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R03,reasoning,1,ok,True,3.678,stop,,,145,221,191
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C15,coding,1,ok,True,30.467,stop,,,289,2026,1727
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R02,reasoning,1,ok,True,6.548,stop,,,139,344,321
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C11,coding,1,ok,True,20.041,stop,,,220,1274,1073
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I04,instruction,1,ok,True,16.419,stop,,,111,1211,1162
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C05,coding,1,ok,True,19.652,stop,,,220,1189,1044
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C07,coding,1,ok,True,30.753,stop,,,219,1815,1617
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T04,tool,1,ok,True,2.446,stop,,,742,117,71
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R06,reasoning,1,ok,True,5.555,stop,,,178,276,253
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I03,instruction,1,ok,True,2.176,stop,,,107,122,107
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C12,coding,1,ok,True,123.779,stop,,,231,6998,6581
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R01,reasoning,1,ok,True,7.16,stop,,,139,418,394
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C13,coding,1,ok,True,53.285,stop,,,196,3100,2806
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I05,instruction,2,ok,True,1.386,stop,,,112,88,73
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T04,tool,2,ok,True,2.478,stop,,,743,135,89
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C05,coding,2,ok,True,18.475,stop,,,220,1191,1071
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R04,reasoning,2,ok,True,3.686,stop,,,133,211,173
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I08,instruction,2,ok,True,1.253,stop,,,116,58,41
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T10,tool,2,ok,True,3.875,stop,,,1323,151,104
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C18,coding,2,ok,True,5.998,stop,,,143,347,289
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K02,korean,2,ok,False,3.881,stop,,,195,269,215
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C07,coding,2,ok,True,48.247,stop,,,219,2919,2709
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C16,coding,2,ok,True,41.78,stop,,,226,2643,2262
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I06,instruction,2,ok,True,2.178,stop,,,113,104,90
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T05,tool,2,ok,True,1.487,stop,,,284,60,54
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C01,coding,2,ok,True,22.171,stop,,,184,1448,1307
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R01,reasoning,2,ok,False,15.892,stop,,,139,940,904
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C17,coding,2,ok,True,21.82,stop,,,150,1183,1113
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C03,coding,2,ok,True,35.92,stop,,,210,2028,1933
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T08,tool,2,ok,True,2.659,stop,,,740,85,61
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R09,reasoning,2,ok,True,5.68,stop,,,141,299,283
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K01,korean,2,ok,True,3.76,stop,,,198,242,217
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C06,coding,2,ok,True,32.177,stop,,,285,2232,1951
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T03,tool,2,ok,True,2.597,stop,,,1133,77,27
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I03,instruction,2,ok,True,2.061,stop,,,107,127,112
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C12,coding,2,ok,True,96.366,stop,,,231,5407,5024
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R05,reasoning,2,ok,True,13.672,stop,,,168,816,791
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C09,coding,2,ok,True,18.127,stop,,,201,1030,905
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C20,coding,2,ok,True,24.427,stop,,,185,1659,1494
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R03,reasoning,2,ok,True,3.776,stop,,,145,230,200
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R02,reasoning,2,ok,True,6.134,stop,,,139,290,267
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R07,reasoning,2,ok,True,3.003,stop,,,117,162,136
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C10,coding,2,ok,True,35.002,stop,,,214,2252,1872
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R08,reasoning,2,ok,True,2.553,stop,,,127,163,128
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T02,tool,2,ok,True,2.814,stop,,,696,113,86
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T06,tool,2,ok,True,2.653,stop,,,714,102,77
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I02,instruction,2,ok,True,1.961,stop,,,117,98,78
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C11,coding,2,ok,True,34.368,stop,,,220,2026,1849
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C19,coding,2,ok,True,15.669,stop,,,160,968,888
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C15,coding,2,ok,True,23.174,stop,,,289,1521,1235
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I04,instruction,2,ok,True,14.146,stop,,,111,1168,1121
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C02,coding,2,generation_truncated,False,159.812,length,,,271,8192,8192
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K04,korean,2,ok,True,9.343,stop,,,230,569,526
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T07,tool,2,ok,True,1.513,stop,,,288,53,40
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I07,instruction,2,ok,True,9.149,stop,,,113,638,606
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C13,coding,2,ok,True,38.885,stop,,,196,2221,1992
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R06,reasoning,2,ok,True,5.407,stop,,,178,291,268
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T01,tool,2,ok,True,4.175,stop,,,1488,167,114
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C14,coding,2,ok,True,46.643,stop,,,220,2912,2516
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,K03,korean,2,ok,True,2.185,stop,,,227,125,118
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,T09,tool,2,ok,True,2.999,stop,,,1051,107,65
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C04,coding,2,ok,True,28.499,stop,,,199,1859,1522
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,R10,reasoning,2,ok,True,2.973,stop,,,159,154,118
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,C08,coding,2,ok,True,16.487,stop,,,225,981,716
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,core,I01,instruction,2,ok,True,7.487,stop,,,118,465,431
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L06,long_context,0,ok,True,65.606,stop,98250,98304,81308,545,515
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L08,long_context,0,ok,False,139.15,stop,200012,200000,166764,1079,1030
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L03,long_context,0,ok,True,27.401,stop,32726,32768,27048,618,572
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L02,long_context,0,ok,True,12.514,stop,16376,16384,13477,231,191
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L07,long_context,0,ok,True,75.915,stop,131086,131072,108547,171,146
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L05,long_context,0,ok,True,42.936,stop,65498,65536,54196,432,389
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L04,long_context,0,ok,True,29.527,stop,49139,49152,40688,219,185
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L01,long_context,0,ok,True,7.435,stop,8164,8192,6719,202,171
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L05,long_context,1,ok,True,9.94,stop,65498,65536,54196,552,509
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L01,long_context,1,ok,True,2.6,stop,8164,8192,6719,171,140
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L06,long_context,1,ok,True,60.433,stop,98250,98304,81308,3365,3335
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L08,long_context,1,ok,True,7.684,stop,200012,200000,166764,411,374
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L02,long_context,1,ok,True,3.342,stop,16376,16384,13477,182,142
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L03,long_context,1,ok,True,10.827,stop,32726,32768,27048,717,671
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L07,long_context,1,ok,True,3.774,stop,131086,131072,108547,211,180
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L04,long_context,1,ok,True,3.673,stop,49139,49152,40688,224,190
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L02,long_context,2,ok,True,6.136,stop,16376,16384,13477,394,354
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L05,long_context,2,ok,True,5.782,stop,65498,65536,54196,333,290
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L03,long_context,2,ok,True,7.79,stop,32726,32768,27048,469,398
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L06,long_context,2,generation_truncated,False,32.744,length,98250,98304,81308,4096,4096
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L04,long_context,2,ok,True,3.457,stop,49139,49152,40688,208,174
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L01,long_context,2,ok,True,3.589,stop,8164,8192,6719,197,173
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L07,long_context,2,ok,True,3.41,stop,131086,131072,108547,192,167
+glm53-v132-q4,GLM 5.3 Flash / TensorFold v1.3.2 dense q4,long_context,L08,long_context,2,ok,True,8.665,stop,200012,200000,166764,512,467
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C09,coding,0,ok,True,11.104,stop,,,201,589,457
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K03,korean,0,ok,True,3.368,stop,,,227,215,208
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R08,reasoning,0,ok,True,2.747,stop,,,127,167,132
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I07,instruction,0,ok,True,9.536,stop,,,113,622,591
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C07,coding,0,ok,True,25.023,stop,,,219,1279,1088
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C17,coding,0,ok,True,23.049,stop,,,150,1097,1023
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R09,reasoning,0,ok,True,6.81,stop,,,141,386,370
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T09,tool,0,ok,True,3.064,stop,,,1052,109,66
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I05,instruction,0,ok,True,2.109,stop,,,112,101,86
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C06,coding,0,ok,True,43.482,stop,,,285,2804,2525
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C05,coding,0,ok,True,15.726,stop,,,220,822,700
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C16,coding,0,ok,True,23.781,stop,,,226,1423,1147
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I08,instruction,0,ok,True,1.674,stop,,,116,59,42
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K04,korean,0,ok,True,14.069,stop,,,230,786,732
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C15,coding,0,ok,True,33.232,stop,,,289,1948,1582
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R01,reasoning,0,ok,True,6.137,stop,,,139,310,286
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T07,tool,0,ok,True,2.307,stop,,,288,91,78
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K02,korean,0,ok,False,3.223,stop,,,195,203,149
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T02,tool,0,ok,True,2.596,stop,,,696,93,66
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C02,coding,0,ok,True,63.307,stop,,,271,3124,2726
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C13,coding,0,ok,True,24.915,stop,,,196,1227,1040
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C08,coding,0,ok,True,12.979,stop,,,225,762,547
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C18,coding,0,ok,True,3.316,stop,,,143,178,120
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I01,instruction,0,ok,True,8.835,stop,,,118,571,537
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C20,coding,0,ok,True,11.935,stop,,,185,724,572
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T01,tool,0,ok,True,4.715,stop,,,1454,194,141
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R05,reasoning,0,ok,True,6.51,stop,,,168,354,329
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R03,reasoning,0,ok,True,3.212,stop,,,145,172,142
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R02,reasoning,0,ok,True,6.558,stop,,,139,323,300
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K01,korean,0,ok,True,4.131,stop,,,198,246,221
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T06,tool,0,ok,True,2.747,stop,,,720,113,88
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R06,reasoning,0,ok,True,4.683,stop,,,178,237,214
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T03,tool,0,ok,True,2.262,stop,,,1133,61,11
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T10,tool,0,ok,True,4.174,stop,,,1327,153,106
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C01,coding,0,ok,True,23.957,stop,,,184,1322,1172
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I02,instruction,0,ok,True,2.245,stop,,,117,114,89
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I06,instruction,0,ok,True,2.773,stop,,,113,129,115
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C10,coding,0,ok,True,28.432,stop,,,214,1798,1410
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C14,coding,0,ok,True,61.01,stop,,,220,3328,2998
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T08,tool,0,ok,True,2.875,stop,,,740,94,70
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R04,reasoning,0,ok,True,5.027,stop,,,133,235,197
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I04,instruction,0,ok,False,12.972,stop,,,111,890,841
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C19,coding,0,ok,True,9.721,stop,,,160,540,459
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C12,coding,0,ok,True,79.556,stop,,,231,3994,3685
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C04,coding,0,ok,True,23.28,stop,,,199,1436,1145
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T05,tool,0,ok,True,1.816,stop,,,284,68,62
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C11,coding,0,ok,True,18.17,stop,,,220,991,819
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R10,reasoning,0,ok,True,6.823,stop,,,159,376,338
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I03,instruction,0,ok,True,2.419,stop,,,107,123,108
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R07,reasoning,0,ok,True,2.443,stop,,,117,121,95
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C03,coding,0,ok,True,20.617,stop,,,210,1094,911
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T04,tool,0,ok,True,2.699,stop,,,740,115,69
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R04,reasoning,1,ok,True,4.007,stop,,,133,202,164
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K01,korean,1,ok,True,3.964,stop,,,198,309,284
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R10,reasoning,1,ok,True,3.372,stop,,,159,172,136
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C18,coding,1,ok,True,4.385,stop,,,143,238,180
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R07,reasoning,1,ok,True,3.333,stop,,,117,178,152
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I08,instruction,1,ok,True,1.498,stop,,,116,63,46
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T07,tool,1,ok,True,1.601,stop,,,288,66,53
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K03,korean,1,ok,True,2.962,stop,,,227,167,160
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C09,coding,1,ok,True,11.617,stop,,,201,596,482
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C16,coding,1,ok,True,38.857,stop,,,226,2325,1928
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K02,korean,1,ok,False,3.921,stop,,,195,211,157
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C10,coding,1,ok,True,25.322,stop,,,214,1444,1038
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I02,instruction,1,ok,True,2.922,stop,,,117,159,134
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C19,coding,1,ok,True,10.057,stop,,,160,576,491
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C02,coding,1,ok,True,41.608,stop,,,271,2096,1809
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T08,tool,1,ok,True,2.435,stop,,,740,99,75
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T09,tool,1,ok,True,3.122,stop,,,1051,107,65
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T03,tool,1,ok,True,2.252,stop,,,1133,61,11
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T01,tool,1,ok,True,4.632,stop,,,1474,170,117
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R08,reasoning,1,ok,True,2.947,stop,,,127,166,131
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T10,tool,1,ok,True,4.503,stop,,,1371,175,128
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I05,instruction,1,ok,True,2.156,stop,,,112,100,85
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I06,instruction,1,ok,True,1.929,stop,,,113,95,81
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I01,instruction,1,ok,True,6.056,stop,,,118,361,327
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T05,tool,1,ok,True,1.435,stop,,,284,54,48
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C17,coding,1,ok,True,19.116,stop,,,150,943,878
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K04,korean,1,ok,True,6.369,stop,,,230,361,311
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R05,reasoning,1,ok,False,10.786,stop,,,168,523,500
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C03,coding,1,ok,True,24.279,stop,,,210,1301,1102
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T02,tool,1,ok,True,3.051,stop,,,711,130,103
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T06,tool,1,ok,True,2.549,stop,,,719,110,85
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C04,coding,1,ok,True,25.38,stop,,,199,1635,1321
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I07,instruction,1,ok,True,7.855,stop,,,113,489,456
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R09,reasoning,1,ok,True,6.322,stop,,,141,372,356
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C20,coding,1,ok,True,12.381,stop,,,185,809,608
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C06,coding,1,ok,True,37.437,stop,,,285,2234,1954
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C14,coding,1,ok,True,54.184,stop,,,220,2987,2675
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C01,coding,1,ok,False,39.617,stop,,,184,1928,1787
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C08,coding,1,ok,True,34.95,stop,,,225,1833,1607
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R03,reasoning,1,ok,True,3.888,stop,,,145,243,211
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C15,coding,1,ok,True,49.05,stop,,,289,2654,2299
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R02,reasoning,1,ok,True,4.923,stop,,,139,225,202
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C11,coding,1,ok,True,17.425,stop,,,220,962,765
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I04,instruction,1,ok,True,8.371,stop,,,111,570,523
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C05,coding,1,ok,True,13.178,stop,,,220,683,562
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C07,coding,1,ok,True,30.589,stop,,,219,1665,1438
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T04,tool,1,ok,True,2.793,stop,,,744,118,72
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R06,reasoning,1,ok,True,4.33,stop,,,178,234,211
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I03,instruction,1,ok,True,2.476,stop,,,107,130,115
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C12,coding,1,ok,True,70.571,stop,,,231,3542,3147
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R01,reasoning,1,ok,True,8.025,stop,,,139,390,366
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C13,coding,1,ok,True,51.583,stop,,,196,2563,2343
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I05,instruction,2,ok,True,1.66,stop,,,112,94,79
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T04,tool,2,ok,True,2.192,stop,,,743,127,81
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C05,coding,2,ok,True,24.005,stop,,,220,1346,1218
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R04,reasoning,2,ok,True,4.684,stop,,,133,223,185
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I08,instruction,2,ok,True,1.426,stop,,,116,69,46
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T10,tool,2,ok,True,4.205,stop,,,1343,161,114
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C18,coding,2,ok,True,4.33,stop,,,143,228,170
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K02,korean,2,ok,False,4.436,stop,,,195,277,223
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C07,coding,2,ok,True,26.661,stop,,,219,1448,1277
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C16,coding,2,ok,True,82.237,stop,,,226,4225,3765
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I06,instruction,2,ok,True,2.578,stop,,,113,121,107
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T05,tool,2,ok,True,1.575,stop,,,284,67,61
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C01,coding,2,ok,True,22.487,stop,,,184,1206,1054
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R01,reasoning,2,ok,True,8.183,stop,,,139,415,391
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C17,coding,2,ok,True,21.115,stop,,,150,1088,1015
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C03,coding,2,ok,True,22.531,stop,,,210,1135,981
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T08,tool,2,ok,True,2.953,stop,,,740,92,68
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R09,reasoning,2,ok,True,6.388,stop,,,141,383,367
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K01,korean,2,ok,True,3.829,stop,,,198,236,211
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C06,coding,2,ok,True,26.59,stop,,,285,1541,1236
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T03,tool,2,ok,True,2.751,stop,,,1133,78,28
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I03,instruction,2,ok,True,2.155,stop,,,107,124,109
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C12,coding,2,ok,True,71.218,stop,,,231,3808,3325
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R05,reasoning,2,ok,False,3.403,stop,,,168,168,145
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C09,coding,2,ok,True,10.999,stop,,,201,571,440
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C20,coding,2,ok,True,16.665,stop,,,185,1063,915
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R03,reasoning,2,ok,True,3.95,stop,,,145,215,183
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R02,reasoning,2,ok,True,9.229,stop,,,139,435,412
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R07,reasoning,2,ok,True,3.543,stop,,,117,179,153
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C10,coding,2,ok,True,32.109,stop,,,214,1812,1455
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R08,reasoning,2,ok,True,2.589,stop,,,127,166,131
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T02,tool,2,ok,True,2.592,stop,,,700,97,70
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T06,tool,2,ok,True,2.913,stop,,,732,124,99
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I02,instruction,2,ok,True,2.058,stop,,,117,101,81
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C11,coding,2,ok,True,17.274,stop,,,220,918,745
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C19,coding,2,ok,True,12.552,stop,,,160,718,637
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C15,coding,2,ok,True,48.472,stop,,,289,2677,2378
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I04,instruction,2,ok,True,17.029,stop,,,111,1221,1175
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C02,coding,2,generation_truncated,False,182.383,length,,,271,8192,8192
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K04,korean,2,ok,True,8.952,stop,,,230,476,415
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T07,tool,2,ok,True,1.599,stop,,,288,68,55
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I07,instruction,2,ok,True,9.199,stop,,,113,529,495
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C13,coding,2,ok,True,116.212,stop,,,196,5786,5478
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R06,reasoning,2,ok,True,4.72,stop,,,178,230,207
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T01,tool,2,ok,True,4.912,stop,,,1479,183,130
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C14,coding,2,ok,True,61.722,stop,,,220,3292,2965
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,K03,korean,2,ok,True,3.526,stop,,,227,222,215
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,T09,tool,2,ok,True,3.107,stop,,,1051,107,65
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C04,coding,2,ok,True,18.507,stop,,,199,1034,745
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,R10,reasoning,2,ok,True,3.312,stop,,,159,145,109
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,C08,coding,2,ok,True,14.601,stop,,,225,760,623
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,core,I01,instruction,2,ok,True,11.955,stop,,,118,741,705
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L06,long_context,0,ok,True,67.213,stop,98250,98304,81308,445,415
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L08,long_context,0,ok,True,135.911,stop,200012,200000,166764,439,402
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L03,long_context,0,ok,True,29.165,stop,32726,32768,27048,548,484
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L02,long_context,0,ok,True,11.773,stop,16376,16384,13477,134,94
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L07,long_context,0,ok,True,81.88,stop,131086,131072,108547,167,142
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L05,long_context,0,ok,True,46.031,stop,65498,65536,54196,402,341
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L04,long_context,0,ok,True,32.377,stop,49139,49152,40688,215,181
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L01,long_context,0,ok,True,8.103,stop,8164,8192,6719,199,168
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L05,long_context,1,ok,True,8.456,stop,65498,65536,54196,455,394
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L01,long_context,1,ok,True,3.025,stop,8164,8192,6719,170,139
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L06,long_context,1,ok,True,12.102,stop,98250,98304,81308,544,514
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L08,long_context,1,ok,True,16.612,stop,200012,200000,166764,833,796
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L02,long_context,1,ok,False,2.584,stop,16376,16384,13477,154,110
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L03,long_context,1,ok,True,6.182,stop,32726,32768,27048,365,294
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L07,long_context,1,ok,True,2.927,stop,131086,131072,108547,177,152
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L04,long_context,1,ok,True,3.768,stop,49139,49152,40688,202,168
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L02,long_context,2,ok,True,4.412,stop,16376,16384,13477,238,198
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L05,long_context,2,ok,True,7.582,stop,65498,65536,54196,402,359
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L03,long_context,2,ok,True,8.782,stop,32726,32768,27048,498,434
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L06,long_context,2,ok,True,14.257,stop,98250,98304,81308,670,640
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L04,long_context,2,ok,True,4.316,stop,49139,49152,40688,239,205
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L01,long_context,2,ok,True,3.003,stop,8164,8192,6719,199,168
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L07,long_context,2,ok,True,2.769,stop,131086,131072,108547,135,110
+glm53-v132-fp8,GLM 5.3 Flash / TensorFold v1.3.2 dense FP8,long_context,L08,long_context,2,ok,True,10.323,stop,200012,200000,166764,514,477
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,T01,tool,0,ok,True,4.325,stop,,,1462,155,102
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,K01,korean,0,ok,True,5.896,stop,,,198,431,406
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,C20,coding,0,ok,True,15.576,stop,,,185,905,712
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,C14,coding,0,ok,True,45.724,stop,,,220,2736,2491
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,T08,tool,0,ok,True,3.197,stop,,,740,102,78
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,I01,instruction,0,ok,True,8.82,stop,,,118,543,507
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,R01,reasoning,0,ok,True,5.746,stop,,,139,311,287
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,smoke,C01,coding,0,ok,True,39.88,stop,,,184,2360,2163
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C09,coding,0,ok,True,12.186,stop,,,201,732,611
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K03,korean,0,ok,True,2.268,stop,,,227,132,125
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R08,reasoning,0,ok,True,2.614,stop,,,127,167,132
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I07,instruction,0,ok,True,8.566,stop,,,113,607,576
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C07,coding,0,ok,True,23.639,stop,,,219,1510,1332
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C17,coding,0,ok,True,20.334,stop,,,150,1147,1077
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R09,reasoning,0,ok,True,6.4,stop,,,141,323,307
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T09,tool,0,ok,True,3.462,stop,,,1052,109,66
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I05,instruction,0,ok,True,1.806,stop,,,112,92,77
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C06,coding,0,ok,True,62.601,stop,,,285,3880,3594
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C05,coding,0,ok,True,20.878,stop,,,220,1307,1132
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C16,coding,0,ok,True,111.965,stop,,,226,6459,5861
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I08,instruction,0,ok,True,1.776,stop,,,116,91,68
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K04,korean,0,ok,True,9.549,stop,,,230,571,521
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C15,coding,0,ok,True,23.151,stop,,,289,1370,1066
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R01,reasoning,0,ok,True,5.364,stop,,,139,311,287
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T07,tool,0,ok,True,1.511,stop,,,288,67,54
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K02,korean,0,ok,False,4.395,stop,,,195,267,213
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T02,tool,0,ok,True,2.401,stop,,,688,83,56
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C02,coding,0,generation_truncated,False,166.577,length,,,271,8192,8192
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C13,coding,0,ok,True,23.838,stop,,,196,1419,1220
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C08,coding,0,ok,True,27.913,stop,,,225,1720,1522
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C18,coding,0,ok,True,4.107,stop,,,143,232,174
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I01,instruction,0,ok,True,8.503,stop,,,118,543,507
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C20,coding,0,ok,True,15.535,stop,,,185,905,712
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T01,tool,0,ok,True,4.327,stop,,,1462,155,102
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R05,reasoning,0,ok,False,4.315,stop,,,168,273,250
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R03,reasoning,0,ok,True,2.892,stop,,,145,165,135
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R02,reasoning,0,ok,True,6.169,stop,,,139,313,290
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K01,korean,0,ok,True,5.912,stop,,,198,431,406
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T06,tool,0,ok,True,2.625,stop,,,714,111,86
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R06,reasoning,0,ok,True,4.909,stop,,,178,249,226
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T03,tool,0,ok,True,2.658,stop,,,1133,77,27
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T10,tool,0,ok,True,3.634,stop,,,1309,140,93
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C01,coding,0,ok,True,40.072,stop,,,184,2360,2163
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I02,instruction,0,ok,True,2.037,stop,,,117,109,89
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I06,instruction,0,ok,True,2.434,stop,,,113,115,101
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C10,coding,0,ok,True,17.788,stop,,,214,1057,665
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C14,coding,0,ok,True,45.782,stop,,,220,2736,2491
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T08,tool,0,ok,True,3.072,stop,,,740,102,78
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R04,reasoning,0,ok,True,4.266,stop,,,133,219,181
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I04,instruction,0,ok,True,19.473,stop,,,111,1653,1605
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C19,coding,0,ok,True,23.159,stop,,,160,1355,1291
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C12,coding,0,generation_truncated,False,148.103,length,,,231,8192,7886
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C04,coding,0,ok,True,32.023,stop,,,199,1934,1574
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T05,tool,0,ok,True,1.327,stop,,,284,50,44
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C11,coding,0,ok,True,69.098,stop,,,220,3926,3705
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R10,reasoning,0,ok,True,7.463,stop,,,159,421,383
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I03,instruction,0,ok,True,1.887,stop,,,107,110,95
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R07,reasoning,0,ok,True,4.009,stop,,,117,195,169
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C03,coding,0,ok,True,65.906,stop,,,210,3830,3645
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T04,tool,0,ok,True,2.309,stop,,,740,104,58
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R04,reasoning,1,ok,True,6.704,stop,,,133,361,323
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K01,korean,1,ok,True,3.165,stop,,,198,242,217
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R10,reasoning,1,ok,True,2.159,stop,,,159,128,92
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C18,coding,1,ok,True,6.004,stop,,,143,340,282
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R07,reasoning,1,ok,True,2.796,stop,,,117,166,140
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I08,instruction,1,ok,True,1.361,stop,,,116,65,48
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T07,tool,1,ok,True,1.661,stop,,,288,74,61
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K03,korean,1,ok,True,2.213,stop,,,227,130,123
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C09,coding,1,ok,True,9.4,stop,,,201,552,423
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C16,coding,1,ok,True,33.357,stop,,,226,2050,1611
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K02,korean,1,ok,False,3.681,stop,,,195,268,214
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C10,coding,1,ok,True,60.999,stop,,,214,3705,3236
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I02,instruction,1,ok,True,1.777,stop,,,117,100,80
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C19,coding,1,ok,True,34.824,stop,,,160,2025,1942
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C02,coding,1,ok,True,88.345,stop,,,271,4587,4243
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T08,tool,1,ok,True,2.242,stop,,,740,98,74
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T09,tool,1,ok,True,3.051,stop,,,1051,108,65
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T03,tool,1,ok,True,2.472,stop,,,1133,80,30
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T01,tool,1,ok,True,5.213,stop,,,1486,189,136
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R08,reasoning,1,ok,True,2.212,stop,,,127,125,90
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T10,tool,1,ok,True,4.056,stop,,,1267,156,109
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I05,instruction,1,ok,True,1.689,stop,,,112,94,79
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I06,instruction,1,ok,False,2.032,stop,,,113,99,81
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I01,instruction,1,ok,True,25.494,stop,,,118,1624,1588
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T05,tool,1,ok,True,1.444,stop,,,284,62,55
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C17,coding,1,ok,True,12.704,stop,,,150,713,642
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K04,korean,1,ok,True,7.417,stop,,,230,495,444
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R05,reasoning,1,ok,True,5.006,stop,,,168,292,267
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C03,coding,1,ok,True,32.851,stop,,,210,1725,1589
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T02,tool,1,ok,True,2.836,stop,,,711,130,103
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T06,tool,1,ok,True,2.543,stop,,,728,119,94
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C04,coding,1,ok,True,26.155,stop,,,199,1682,1376
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I07,instruction,1,ok,True,7.123,stop,,,113,451,422
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R09,reasoning,1,ok,True,5.115,stop,,,141,290,274
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C20,coding,1,ok,True,15.984,stop,,,185,1000,854
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C06,coding,1,ok,True,53.366,stop,,,285,3511,3233
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C14,coding,1,ok,True,132.091,stop,,,220,7312,6999
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C01,coding,1,ok,True,55.933,stop,,,184,3062,2925
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C08,coding,1,ok,True,28.221,stop,,,225,1717,1525
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R03,reasoning,1,ok,True,3.704,stop,,,145,221,191
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C15,coding,1,ok,True,30.698,stop,,,289,2026,1727
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R02,reasoning,1,ok,True,6.619,stop,,,139,344,321
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C11,coding,1,ok,True,20.299,stop,,,220,1274,1073
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I04,instruction,1,ok,True,16.573,stop,,,111,1211,1162
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C05,coding,1,ok,True,19.933,stop,,,220,1189,1044
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C07,coding,1,ok,True,31.097,stop,,,219,1815,1617
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T04,tool,1,ok,True,2.46,stop,,,742,117,71
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R06,reasoning,1,ok,True,5.59,stop,,,178,276,253
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I03,instruction,1,ok,True,2.19,stop,,,107,122,107
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C12,coding,1,ok,True,125.201,stop,,,231,6998,6581
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R01,reasoning,1,ok,True,7.191,stop,,,139,418,394
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C13,coding,1,ok,True,54.024,stop,,,196,3100,2806
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I05,instruction,2,ok,True,1.396,stop,,,112,88,73
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T04,tool,2,ok,True,2.484,stop,,,743,135,89
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C05,coding,2,ok,True,18.575,stop,,,220,1191,1071
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R04,reasoning,2,ok,True,3.773,stop,,,133,211,173
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I08,instruction,2,ok,True,1.257,stop,,,116,58,41
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T10,tool,2,ok,True,3.876,stop,,,1323,151,104
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C18,coding,2,ok,True,6.018,stop,,,143,347,289
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K02,korean,2,ok,False,3.921,stop,,,195,269,215
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C07,coding,2,ok,True,48.721,stop,,,219,2919,2709
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C16,coding,2,ok,True,42.186,stop,,,226,2643,2262
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I06,instruction,2,ok,True,2.187,stop,,,113,104,90
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T05,tool,2,ok,True,1.49,stop,,,284,60,54
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C01,coding,2,ok,True,22.426,stop,,,184,1448,1307
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R01,reasoning,2,ok,False,15.973,stop,,,139,940,904
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C17,coding,2,ok,True,22.057,stop,,,150,1183,1113
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C03,coding,2,ok,True,36.388,stop,,,210,2028,1933
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T08,tool,2,ok,True,2.672,stop,,,740,85,61
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R09,reasoning,2,ok,True,5.713,stop,,,141,299,283
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K01,korean,2,ok,True,3.801,stop,,,198,242,217
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C06,coding,2,ok,True,32.431,stop,,,285,2232,1951
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T03,tool,2,ok,True,2.607,stop,,,1133,77,27
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I03,instruction,2,ok,True,2.071,stop,,,107,127,112
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C12,coding,2,ok,True,97.223,stop,,,231,5407,5024
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R05,reasoning,2,ok,True,13.819,stop,,,168,816,791
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C09,coding,2,ok,True,18.28,stop,,,201,1030,905
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C20,coding,2,ok,True,24.678,stop,,,185,1659,1494
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R03,reasoning,2,ok,True,3.808,stop,,,145,230,200
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R02,reasoning,2,ok,True,6.153,stop,,,139,290,267
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R07,reasoning,2,ok,True,3.03,stop,,,117,162,136
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C10,coding,2,ok,True,35.38,stop,,,214,2252,1872
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R08,reasoning,2,ok,True,2.562,stop,,,127,163,128
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T02,tool,2,ok,True,2.823,stop,,,696,113,86
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T06,tool,2,ok,True,2.658,stop,,,714,102,77
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I02,instruction,2,ok,True,1.967,stop,,,117,98,78
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C11,coding,2,ok,True,34.777,stop,,,220,2026,1849
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C19,coding,2,ok,True,15.775,stop,,,160,968,888
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C15,coding,2,ok,True,23.407,stop,,,289,1521,1235
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I04,instruction,2,ok,True,14.314,stop,,,111,1168,1121
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C02,coding,2,generation_truncated,False,160.862,length,,,271,8192,8192
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K04,korean,2,ok,True,9.513,stop,,,230,569,526
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T07,tool,2,ok,True,1.524,stop,,,288,53,40
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I07,instruction,2,ok,True,9.219,stop,,,113,638,606
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C13,coding,2,ok,True,39.067,stop,,,196,2221,1992
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R06,reasoning,2,ok,True,5.444,stop,,,178,291,268
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T01,tool,2,ok,True,4.247,stop,,,1488,167,114
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C14,coding,2,ok,True,46.801,stop,,,220,2912,2516
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,K03,korean,2,ok,True,2.195,stop,,,227,125,118
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,T09,tool,2,ok,True,3.008,stop,,,1051,107,65
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C04,coding,2,ok,True,28.659,stop,,,199,1859,1522
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,R10,reasoning,2,ok,True,2.999,stop,,,159,154,118
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,C08,coding,2,ok,True,16.635,stop,,,225,981,716
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,core,I01,instruction,2,ok,True,7.539,stop,,,118,465,431
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L06,long_context,0,ok,True,65.919,stop,98250,98304,81308,545,515
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L08,long_context,0,ok,False,139.184,stop,200012,200000,166764,1079,1030
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L03,long_context,0,ok,True,27.479,stop,32726,32768,27048,618,572
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L02,long_context,0,ok,True,12.533,stop,16376,16384,13477,231,191
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L07,long_context,0,ok,True,76.055,stop,131086,131072,108547,171,146
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L05,long_context,0,ok,True,43.01,stop,65498,65536,54196,432,389
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L04,long_context,0,ok,True,29.497,stop,49139,49152,40688,219,185
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L01,long_context,0,ok,True,7.715,stop,8164,8192,6719,202,171
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L05,long_context,1,ok,True,9.967,stop,65498,65536,54196,552,509
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L01,long_context,1,ok,True,2.617,stop,8164,8192,6719,171,140
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L06,long_context,1,ok,True,60.933,stop,98250,98304,81308,3365,3335
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L08,long_context,1,ok,True,7.65,stop,200012,200000,166764,411,374
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L02,long_context,1,ok,True,3.343,stop,16376,16384,13477,182,142
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L03,long_context,1,ok,True,10.93,stop,32726,32768,27048,717,671
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L07,long_context,1,ok,True,3.769,stop,131086,131072,108547,211,180
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L04,long_context,1,ok,True,3.672,stop,49139,49152,40688,224,190
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L02,long_context,2,ok,True,6.157,stop,16376,16384,13477,394,354
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L05,long_context,2,ok,True,5.792,stop,65498,65536,54196,333,290
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L03,long_context,2,ok,True,7.84,stop,32726,32768,27048,469,398
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L06,long_context,2,generation_truncated,False,32.963,length,98250,98304,81308,4096,4096
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L04,long_context,2,ok,True,3.587,stop,49139,49152,40688,208,174
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L01,long_context,2,ok,True,3.612,stop,8164,8192,6719,197,173
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L07,long_context,2,ok,True,3.424,stop,131086,131072,108547,192,167
+glm53-v132-q4-dflash2-server8,GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8,long_context,L08,long_context,2,ok,True,8.778,stop,200012,200000,166764,512,467

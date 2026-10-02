@@ -1,0 +1,468 @@
+{
+  "format_version": 1,
+  "suite": "2x DGX Spark Quality Bench Core60 synthetic task suite",
+  "prepared_on": "2026-10-02",
+  "notes": [
+    "Each category reports attempt-level quality and operational outcomes; no combined leaderboard score is defined.",
+    "Raw model responses, request/response payloads, endpoint settings, local paths, container identifiers, and host-specific metadata are intentionally excluded.",
+    "The suite and its scoring oracles are public, so these are reproducible diagnostic results, not blind or held-out evaluation results."
+  ],
+  "runs": [
+    {
+      "variant_id": "glm53-tensorfold",
+      "variant": "GLM 5.3 Flash / TensorFold dense q4",
+      "suite": "core",
+      "categories": {
+        "coding": {
+          "episodes": 60,
+          "quality_scored": 60,
+          "passed": 57,
+          "pass_rate": 0.95,
+          "operational_success_rate": 0.95,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 57,
+            "generation_truncated": 3
+          },
+          "median_response_s": 33.83481193194166,
+          "median_solved_response_s": 33.83481193194166
+        },
+        "instruction": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 23,
+          "pass_rate": 0.9583333333333334,
+          "operational_success_rate": 0.9583333333333334,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 24
+          },
+          "median_response_s": 2.518601281917654,
+          "median_solved_response_s": 2.521675055846572
+        },
+        "korean": {
+          "episodes": 12,
+          "quality_scored": 12,
+          "passed": 9,
+          "pass_rate": 0.75,
+          "operational_success_rate": 0.75,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 12
+          },
+          "median_response_s": 4.6290165348909795,
+          "median_solved_response_s": 4.131380673032254
+        },
+        "reasoning": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 28,
+          "pass_rate": 0.9333333333333333,
+          "operational_success_rate": 0.9333333333333333,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 5.466551881982014,
+          "median_solved_response_s": 5.466551881982014
+        },
+        "tool": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 30,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 2.951239841990173,
+          "median_solved_response_s": 2.951239841990173
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-tensorfold",
+      "variant": "GLM 5.3 Flash / TensorFold dense q4",
+      "suite": "long_context",
+      "categories": {
+        "long_context": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 22,
+          "pass_rate": 0.9166666666666666,
+          "operational_success_rate": 0.9166666666666666,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 23,
+            "generation_truncated": 1
+          },
+          "median_response_s": 9.038672893075272,
+          "median_solved_response_s": 8.712503541028127
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-v132-q4",
+      "variant": "GLM 5.3 Flash / TensorFold v1.3.2 dense q4",
+      "suite": "core",
+      "categories": {
+        "coding": {
+          "episodes": 60,
+          "quality_scored": 60,
+          "passed": 57,
+          "pass_rate": 0.95,
+          "operational_success_rate": 0.95,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 57,
+            "generation_truncated": 3
+          },
+          "median_response_s": 28.499097340973094,
+          "median_solved_response_s": 28.499097340973094
+        },
+        "instruction": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 23,
+          "pass_rate": 0.9583333333333334,
+          "operational_success_rate": 0.9583333333333334,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 24
+          },
+          "median_response_s": 2.118380285333842,
+          "median_solved_response_s": 2.1760257168207318
+        },
+        "korean": {
+          "episodes": 12,
+          "quality_scored": 12,
+          "passed": 9,
+          "pass_rate": 0.75,
+          "operational_success_rate": 0.75,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 12
+          },
+          "median_response_s": 3.820344833889976,
+          "median_solved_response_s": 3.7595947929657996
+        },
+        "reasoning": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 28,
+          "pass_rate": 0.9333333333333333,
+          "operational_success_rate": 0.9333333333333333,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 4.933104334399104,
+          "median_solved_response_s": 4.933104334399104
+        },
+        "tool": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 30,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 2.609797813463956,
+          "median_solved_response_s": 2.609797813463956
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-v132-q4",
+      "variant": "GLM 5.3 Flash / TensorFold v1.3.2 dense q4",
+      "suite": "long_context",
+      "categories": {
+        "long_context": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 22,
+          "pass_rate": 0.9166666666666666,
+          "operational_success_rate": 0.9166666666666666,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 23,
+            "generation_truncated": 1
+          },
+          "median_response_s": 7.789621128933504,
+          "median_solved_response_s": 7.736630875384435
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-v132-fp8",
+      "variant": "GLM 5.3 Flash / TensorFold v1.3.2 dense FP8",
+      "suite": "core",
+      "categories": {
+        "coding": {
+          "episodes": 60,
+          "quality_scored": 60,
+          "passed": 58,
+          "pass_rate": 0.9666666666666667,
+          "operational_success_rate": 0.9666666666666667,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 59,
+            "generation_truncated": 1
+          },
+          "median_response_s": 24.004787567071617,
+          "median_solved_response_s": 23.980693430523388
+        },
+        "instruction": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 23,
+          "pass_rate": 0.9583333333333334,
+          "operational_success_rate": 0.9583333333333334,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 24
+          },
+          "median_response_s": 2.5267017615260556,
+          "median_solved_response_s": 2.47572416998446
+        },
+        "korean": {
+          "episodes": 12,
+          "quality_scored": 12,
+          "passed": 9,
+          "pass_rate": 0.75,
+          "operational_success_rate": 0.75,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 12
+          },
+          "median_response_s": 3.942505095503293,
+          "median_solved_response_s": 3.964199597015977
+        },
+        "reasoning": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 28,
+          "pass_rate": 0.9333333333333333,
+          "operational_success_rate": 0.9333333333333333,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 4.683560804929584,
+          "median_solved_response_s": 4.683560804929584
+        },
+        "tool": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 30,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 2.7486989406170323,
+          "median_solved_response_s": 2.7486989406170323
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-v132-fp8",
+      "variant": "GLM 5.3 Flash / TensorFold v1.3.2 dense FP8",
+      "suite": "long_context",
+      "categories": {
+        "long_context": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 23,
+          "pass_rate": 0.9583333333333334,
+          "operational_success_rate": 0.9583333333333334,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 24
+          },
+          "median_response_s": 8.618737219483592,
+          "median_solved_response_s": 8.781508916057646
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-v132-q4-dflash2-server8",
+      "variant": "GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8",
+      "suite": "smoke",
+      "categories": {
+        "coding": {
+          "episodes": 3,
+          "quality_scored": 3,
+          "passed": 3,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 3
+          },
+          "median_response_s": 39.88010992202908,
+          "median_solved_response_s": 39.88010992202908
+        },
+        "instruction": {
+          "episodes": 1,
+          "quality_scored": 1,
+          "passed": 1,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 1
+          },
+          "median_response_s": 8.819827152881771,
+          "median_solved_response_s": 8.819827152881771
+        },
+        "korean": {
+          "episodes": 1,
+          "quality_scored": 1,
+          "passed": 1,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 1
+          },
+          "median_response_s": 5.895532056922093,
+          "median_solved_response_s": 5.895532056922093
+        },
+        "reasoning": {
+          "episodes": 1,
+          "quality_scored": 1,
+          "passed": 1,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 1
+          },
+          "median_response_s": 5.74569093901664,
+          "median_solved_response_s": 5.74569093901664
+        },
+        "tool": {
+          "episodes": 2,
+          "quality_scored": 2,
+          "passed": 2,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 2
+          },
+          "median_response_s": 3.7609567404724658,
+          "median_solved_response_s": 3.7609567404724658
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-v132-q4-dflash2-server8",
+      "variant": "GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8",
+      "suite": "core",
+      "categories": {
+        "coding": {
+          "episodes": 60,
+          "quality_scored": 60,
+          "passed": 57,
+          "pass_rate": 0.95,
+          "operational_success_rate": 0.95,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 57,
+            "generation_truncated": 3
+          },
+          "median_response_s": 28.659311924828216,
+          "median_solved_response_s": 28.659311924828216
+        },
+        "instruction": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 23,
+          "pass_rate": 0.9583333333333334,
+          "operational_success_rate": 0.9583333333333334,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 24
+          },
+          "median_response_s": 2.129091847105883,
+          "median_solved_response_s": 2.1872520761098713
+        },
+        "korean": {
+          "episodes": 12,
+          "quality_scored": 12,
+          "passed": 9,
+          "pass_rate": 0.75,
+          "operational_success_rate": 0.75,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 12
+          },
+          "median_response_s": 3.861005665967241,
+          "median_solved_response_s": 3.8006802599411458
+        },
+        "reasoning": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 28,
+          "pass_rate": 0.9333333333333333,
+          "operational_success_rate": 0.9333333333333333,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 4.957083845511079,
+          "median_solved_response_s": 4.957083845511079
+        },
+        "tool": {
+          "episodes": 30,
+          "quality_scored": 30,
+          "passed": 30,
+          "pass_rate": 1.0,
+          "operational_success_rate": 1.0,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 30
+          },
+          "median_response_s": 2.641524911043234,
+          "median_solved_response_s": 2.641524911043234
+        }
+      },
+      "measurement_date": "2026-10-02"
+    },
+    {
+      "variant_id": "glm53-v132-q4-dflash2-server8",
+      "variant": "GLM 5.3 Flash / dense q4 + DFlash2 / server parallelism 8",
+      "suite": "long_context",
+      "categories": {
+        "long_context": {
+          "episodes": 24,
+          "quality_scored": 24,
+          "passed": 22,
+          "pass_rate": 0.9166666666666666,
+          "operational_success_rate": 0.9166666666666666,
+          "infrastructure_or_unscored": 0,
+          "statuses": {
+            "ok": 23,
+            "generation_truncated": 1
+          },
+          "median_response_s": 7.840085092000663,
+          "median_solved_response_s": 7.777668452472426
+        }
+      },
+      "measurement_date": "2026-10-02"
+    }
+  ]
+}
